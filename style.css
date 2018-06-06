@@ -24,6 +24,20 @@ header{
   overflow: hidden;
 }
 
+header:before{
+  content:"";
+  background: inherit;
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: -25px;
+  top: -25px;
+  right: 0px;
+  bottom: 0px;
+  box-shadow: inset 0px 0px 0px 500px rgba(0, 0, 0, 0.2);
+  filter: blur(10px);
+}
+
 body {
   position: absolute;
   height:100%;
