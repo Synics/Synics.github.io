@@ -1,0 +1,329 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+}
+
+#Home {
+    width: 100%;
+    height: 100%;
+}
+
+#homeBackground {
+    background:url("https://scontent-ort2-2.cdninstagram.com/vp/19ed5346a1f17f0ba83078a1cc5a6dd0/5D0C21F6/t51.2885-15/e35/41848137_249110092354277_301448813467944012_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com");
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+#homeBackgroundLayer {
+    background-color: rgb(42, 54, 59, 0.9);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#absoluteContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+
+#homeContentContainer {
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#About {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 54, 59, 0.9);
+}
+
+#aboutContentContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+    background:url("https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?cs=srgb&dl=abstract-business-code-276452.jpg&fm=jpg");
+}
+
+.leftBlur{
+    left: -50px;
+    filter: blur(10px);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: inherit;
+}
+
+.rightBlur {
+    left: 50px;
+    filter: blur(10px);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: inherit;
+}
+
+#aboutPhotoContainer {
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5%;
+}
+
+.aboutText {
+    padding: 0px;
+    color: rgb(249,241,241);
+    font-size: 28px;
+    font-family: verdana;
+}
+
+#aboutHT {
+    text-align: center;
+    position: relative;
+    margin-top: 56.2333px;
+}
+
+#aboutTextContainer {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#aboutBT {
+    margin-top: 0px;
+    text-align: left;
+}
+
+#Resume {
+    width: 100%;
+    height: 100%;
+}
+
+embed {
+    width: calc(100% - 75px);
+    height: 100%;
+    margin-left: 75px;
+}
+
+#COOP {
+    width: 100%;
+    height: 100%;
+}
+
+#coopHTContainer {
+    width: 100%;
+    height: 15%;
+    position: relative;
+    background-color:rgb(199, 210, 226);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+#coopHT {
+    text-align: center;
+    position: relative;
+    font-size: 32px;
+    font-family: verdana;
+    padding: 0px;
+    margin-left: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#coopBody {
+    height: 85%;
+    width: 100%;
+    background-color: rgb(31, 39, 43, 0.9);
+}
+
+.coopBox {
+    height: 90%;
+    width: 500px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#coop1{
+    float: left;
+    margin-left: calc(75px + 5%);
+}
+
+#coop1HTContainer {
+    width: 100%;
+    height: 15%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.8);
+}
+
+#coop1HT {
+    margin: 0px;
+    font-family: Verdana;
+    color: rgb(249,241,241);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#coop1BTContainer {
+    height: 100%;
+    width: 100%;
+    color: rgb(249,241,241);
+}
+
+#coop1BT {
+    margin-top: 5px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 24px;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#coop2{
+    float: right;
+    margin-right: 5%;
+}
+
+#coop2HTContainer {
+    width: 100%;
+    height: 15%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.8);
+}
+
+#coop2HT{
+    margin: 0px;
+    font-family: Verdana;
+    color: rgb(249,241,241);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#coop2BTContainer {
+    height: 100%;
+    width: 100%;
+    color: rgb(249,241,241);
+}
+
+#coop2BT {
+    margin-top: 5px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 24px;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#sideBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+    height: 100%;
+    background-color: rgb(31, 39, 43);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+#logoImgContainer {
+    width: 71px;
+    height: 70px;
+    border-style: solid;
+    border-color: rgb(232, 74, 95);
+    border-width: 2px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+#absoluteIconContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 75px;
+}
+
+#iconContainer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+i {
+    color: rgb(64, 70, 73); 
+    margin-bottom: 50px;
+}
+
+.fas.fa-home.fa-2x {
+    display: block;
+    color:rgb(232, 74, 95);
+    margin-left: 18px;
+}
+
+.fas.fa-user-alt.fa-2x {
+    display: block;
+    margin-left: 21.5px;
+}
+
+.fas.fa-file-alt.fa-2x {
+    display: block;
+    margin-left: 25.5px;
+}
+
+.fas.fa-coffee.fa-2x {
+    display: block;
+    margin-left: 17.5px;
+}
+
+.fas.fa-code-branch.fa-2x {
+    display: block;
+    margin-left: 25.5px;
+    margin-bottom: 0px;
+}
