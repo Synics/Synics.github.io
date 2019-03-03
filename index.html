@@ -1,24 +1,103 @@
 <!DOCTYPE html>
-
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link rel="stylesheet" href="color.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+    <body>
+        <!-- HOME -->
+        <div id="Home">
+            <div id="homeBackground">
+                    <div id="homeBackgroundLayer"></div>
+            </div>
+        
+            <div id="absoluteContainer">
+                <div id="homeContentContainer">
+                    <img src="bigLogo.svg" width="500px" height="300px">
+                </div>
+            </div>
+        </div>
 
-  <body>
-    
-    <div class="Pages" id="Page1">
-      <header>
-        <div class="headerBlur" id="headerBlurRight"></div>
-        <div class="headerBlur" id="headerBlurLeft"></div>
-      </header>
-    </div>
+        <!-- ABOUT -->
+        <div id="About">
+            <div id="absoluteContainer">
+                <div id="aboutContentContainer">
+                    <div class="leftBlur"></div>
+                    <div class="rightBlur"></div>
+                    <div id="aboutPhotoContainer">
+                        <img src="https://pbs.twimg.com/profile_images/1022543800068014080/2UpLkE0G_400x400.jpg" id="aboutPhoto" height="250px" width="250px"> 
+                    </div>
+                    
+                    <h2 class="aboutText" id="aboutHT">&lt About &gt</h2>
 
-    <div class="Pages" id="Page2">
-      <p>Test</p>
-    </div>
+                    <div id="aboutTextContainer">
+                        <p class="aboutText" id="aboutBT">Hey, I'm Alex Reichling. I'm a Computer Science Major at the University of Cincinnati and a Developer Intern at PCMS Datafit. Interested in all things related to Science and Engineering (Except Math Theory)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  </body>
+        <!-- RESUME -->
+        <div id="Resume">
+                <embed src="Resume.pdf" type="application/pdf">
+        </div>
+        
+        <!-- CO-OP -->
+        <div id="COOP">
+            <div id=coopHTContainer>
+                <h1 id="coopHT">CO-OP Experience</h1>
+            </div>
 
+            <div id="coopBody">
+                <div class="coopBox" id="coop1">
+                    <div id="coop1HTContainer">
+                        <h1 id="coop1HT">QA Intern</h1>
+                    </div>
+
+                    <div id="coop1BTContainer">
+                        <p id="coop1BT">My first co-op I worked for PCMS Datafit as a QA intern during the spring semester of 2018. I worked with multiple retail systems, testing the software that PCMS developed before releasing to the customer. While working as a QA intern I received technical training on how to test software as well as how to report defects using Jira. I also had the opportunity to learn a great deal about Agile and how PCMS implemented/modified it to fit their own needs.</p>
+                    </div>
+                </div>
+
+                <div class="coopBox" id="coop2">
+                    <div id="coop2HTContainer">
+                        <h1 id="coop2HT">Dev/QA Intern</h1>
+                    </div>
+                    
+                    <div id="coop2BTContainer">
+                        <p id="coop2BT">My second co-op I worked for PCMS Datafit where I transitioned from a QA intern to a Dev intern. I had the opportunity to learn about PCMS’s automated testing system, which I wrote, updated, and maintained. I also was tasked with a project in which I used the Jenkin’s API to kick off and verify build statuses of jobs that were sent to me via XML. I learned how to navigate through and debug code as well.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- PROJECTS -->
+        <div id="Projects">
+            <div id="projectsBackground"></div>
+        </div>
+
+        <!-- SIDE BAR -->
+        <div id="sideBar">
+            <div id="logoImgContainer">
+                <img src="logo.svg" id="logo">
+            </div> 
+            <div id="absoluteIconContainer">
+                <div id="iconContainer">
+                    <i class="fas fa-home fa-2x"></i>
+                    <i class="fas fa-user-alt fa-2x"></i>
+                    <i class="fas fa-file-alt fa-2x"></i>
+                    <i class="fas fa-coffee fa-2x"></i>
+                    <i class="fas fa-code-branch fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+
+    </footer>
 </html>
