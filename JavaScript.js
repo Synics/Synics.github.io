@@ -6,3 +6,8 @@ function highlightIcon(iconName){
     document.getElementById("projectsIcon").classList.remove('highlighted');
     document.getElementById(iconName).classList.add('highlighted');
 }
+
+function onLoad(){
+    window.scrollTo(0,0);
+    document.getElementById("homeIcon").classList.add('highlighted');
+}
