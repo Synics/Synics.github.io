@@ -56,8 +56,18 @@ a {
 #About {
     width: 100%;
     height: 100%;
-    background-color: rgba(42, 54, 59, 0.9);
 }
+
+#absoluteContainerAbout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("abstractBackground.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
 
 #aboutContentContainer {
     position: relative;
@@ -69,7 +79,7 @@ a {
     transform: translateY(-50%);
     overflow: hidden;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
-    background:url("https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?cs=srgb&dl=abstract-business-code-276452.jpg&fm=jpg");
+    background-color: rgba(42, 54, 59, 0.7);
 }
 
 .leftBlur{
@@ -174,7 +184,8 @@ embed {
 #coopBody {
     height: 85%;
     width: 100%;
-    background-color: rgba(42, 54, 59, 0.9);
+    background-image: url("https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: no-repeat;
 }
 
 .coopBox {
@@ -189,7 +200,7 @@ embed {
 
 #coop1{
     float: left;
-    margin-left: calc(75px + 5%);
+    margin-left: calc(75px + 10%);
 }
 
 #coop1HTContainer {
@@ -226,7 +237,7 @@ embed {
 
 #coop2{
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 #coop2HTContainer {
