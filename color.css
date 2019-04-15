@@ -3,6 +3,19 @@ html{
     width: 100%;
 }
 
+ul {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+li {
+    font-family: 'Istok Web', sans-serif;
+    color: rgb(232, 74, 95);
+    font-size: 24px;
+}
+span {
+    color: rgb(249,241,241);
+}
 body {
     width: 100%;
     height: 100%;
@@ -56,6 +69,7 @@ a {
 #About {
     width: 100%;
     height: 100%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 #absoluteContainerAbout {
@@ -85,7 +99,6 @@ a {
 }
 
 .aboutText {
-    padding: 0px;
     color: rgb(249,241,241);
     font-size: 28px;
     font-family: 'Istok Web', sans-serif;
@@ -124,148 +137,102 @@ a {
 
 #Resume {
     width: 100%;
-    height: 100%;
+    background-color: rgba(41, 43, 45, 0.9);
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-embed {
-    width: calc(100% - 75px);
-    height: 100%;
-    margin-left: 75px;
-}
-
-#COOP {
-    width: 100%;
-    height: 100%;
-}
-
-#coopHTContainer {
-    width: 100%;
-    height: 15%;
-    position: relative;
-    background-color:rgba(42, 54, 59, 0.7);
-    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-#coopHT {
-    text-align: center;
-    position: relative;
-    font-size: 32px;
-    font-family: verdana;
-    padding: 0px;
-    margin-left: 75px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgb(249,241,241);
-}
-
-#coopBody {
-    height: 85%;
-    width: 100%;
-}
-
-.coopBox {
-    height: 90%;
-    width: 500px;
-    display: inline-block;
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#coop1{
-    float: left;
-    margin-left: calc(75px + 10%);
-}
-
-#coop1HTContainer {
-    width: 100%;
-    height: 15%;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
-}
-
-#coop1HT {
+.ResumeText {
     margin: 0px;
-    font-family: Verdana;
+    font-family: 'Istok Web', sans-serif;
     color: rgb(249,241,241);
-    text-align: center;
+    text-align: left;
+    font-size: 64px;
+}
+
+.Education {
     position: relative;
+    margin-left: calc(75px + 15%);
+    top: 3%;
+    margin-right: 15%;
+}
+
+.listStyleNone {
+    font-family: 'Istok Web', sans-serif;
+    color: rgb(249,241,241);
+    font-size: 24px;
+    list-style-type: none;
+}
+.Skills {
+    position: relative;
+    margin-left: calc(75px + 15%);
+    margin-top: 3%;
+    margin-right: 15%;
+    top: 3%;
+}
+
+.Experience {
+    position: relative;
+    margin-left: calc(75px + 15%);
+    margin-right: 15%;
+    margin-top: 3%;
+    top: 3%;
+}
+
+.CareerGoals {
+    position: relative;
+    margin-left: calc(75px + 15%);
+    margin-top: 3%;
+    top: 3%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.ResumeLink {
+    position: relative;
+    margin-top: 5%;
+    height: 32px;
+    left: 50%;
+    width: 150px;
+    transform: translateX(-50%);
+    margin-bottom: 3%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:rgb(232, 74, 95);
+}
+
+.ResumeLink:hover {
+    background-color: rgba(244, 122, 138, 0.1);
+}
+
+.ResumeLinkText {
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Istok Web', sans-serif;
+    color: rgb(232, 74, 95);
+    margin: 0;
     top: 50%;
     transform: translateY(-50%);
-}
-
-#coop1BTContainer {
-    height: 100%;
-    width: 100%;
-    color: rgb(249,241,241);
-}
-
-#coop1BT {
-    margin-top: 5px;
-    text-align: left;
-    font-family: verdana;
-    font-size: 24px;
-    position: relative;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-#coop2{
-    float: right;
-    margin-right: 10%;
-}
-
-#coop2HTContainer {
-    width: 100%;
-    height: 15%;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
-}
-
-#coop2HT{
-    margin: 0px;
-    font-family: Verdana;
-    color: rgb(249,241,241);
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#coop2BTContainer {
-    height: 100%;
-    width: 100%;
-    color: rgb(249,241,241);
-}
-
-#coop2BT {
-    margin-top: 5px;
-    text-align: left;
-    font-family: verdana;
-    font-size: 24px;
-    position: relative;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 #Projects {
     width: 100%;
     height: 100%;
-    background-color: rgba(106, 135, 148, 0.9);
+    /*background-color: rgba(106, 135, 148, 0.9);*/
+    background-color: rgba(42, 54, 59, 0.9);
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 .project {
-    width: calc(100% - 75px);
     height: 50%;
-    margin-left: 75px;
+    margin-left: calc(75px + 5%);
 }
 
 #butterBudgetImgContainer {
-    display: inline-block;
-    margin-left: 5%;
+    position: relative;
+    float: left;
     height: 100%; 
     width: 500px;
 }
@@ -274,20 +241,25 @@ embed {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(232, 74, 95);
 }
 
 #butterBudgetTextContainer {
-    display: inline-block;
+    position: relative;
     float: right;
     width: 50%;
     height: 100%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#butterBudgetText{
+#projectText{
     margin: 0px;
-    font-family: Verdana;
-    font-size: 16px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
     color:  rgb(249,241,241);
     position: relative;
     top: 50%;
@@ -295,35 +267,30 @@ embed {
 }
 
 #wordSearchImgContainer {
-    display: inline-block;
+    position: relative;
     margin-right: 5%;
     height: 100%; 
     width: 500px;
-    float: right;
+    float: left;
 }
 
 #wordSearchImg {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    border-right-style: solid;
+    border-right-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color:rgb(232, 74, 95);
 }
 
 #wordSearchTextContainer {
-    display: inline-block;
-    float: left;
+    position: relative;
     width: 50%;
     height: 100%;
-    margin-left: 5%;
-}
-
-#wordSearchText{
-    margin: 0px;
-    font-family: Verdana;
-    font-size: 16px;
-    color:  rgb(249,241,241);
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    float: right;
+    margin-right: 5%;
 }
 
 #sideBar {
